@@ -190,10 +190,10 @@ nav .menu a{
 }
 
 /* The Solution section  */
-Solution{
+#Solution{
     max-width: 1600px;
     padding: 120px;
-    margin: 0 auto;   
+    margin: 0 auto;  
 }
 .Solution-container{
     max-width: 1360px;
@@ -201,7 +201,7 @@ Solution{
     justify-content: center;
     justify-content: flex-start;
     align-items: center;
-    gap: 40;
+    gap: 180px;
 }
 .container1 img{    
     width: 600px;
@@ -211,7 +211,7 @@ Solution{
     max-width:760px;
     align-items: center;
     justify-content: center;
-    padding:60px;
+    padding:0;
 }
 .container2 h3{
     font-size: 16px;
