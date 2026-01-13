@@ -16,7 +16,7 @@
     border-radius: 4px;
     border: none;
 }
-/* header style */
+
 body{
     max-width: 1600px;
 }
@@ -115,6 +115,7 @@ body{
     background-color: transparent;
     border: white;
     cursor: pointer;
+    border: 1px solid white;
  }
 
 .btn2{
@@ -130,5 +131,60 @@ body{
     align-items: center;
     text-align: center;
     cursor: pointer;
+    
+}
+
+
+#notes{
+    padding-top: 50px;
+    
+}
+.notes-container{
+    margin: 0 auto;
+    padding: 16px 120px;
+}
+.notes-box{
+    display: flex; 
+}
+
+
+.notes-heading{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+}
+.notes-description{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.notes-card{
+    width: 322px;
+    height: 300px;
+    padding: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 24px;
+    box-shadow: 0 6px 50px 0 #ececec
+    
+}
+.notes-card img{
+    background-color:rgba(249, 85, 85, 1);
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.notes-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    text-align: center;
     
 }
