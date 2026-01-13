@@ -244,3 +244,43 @@ Solution{
   font-size: 15px;
   color: #0b1f33;
 }
+/* Ready to think section */
+#ready-section{
+    width: 1600px;
+    padding:0px 120px 120px;
+    
+}
+.ready-container{
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+    max-width: 1360px;
+    justify-content: center;
+    align-items: center;
+    gap: 40;
+    padding: 80px 40px 80px 40px;
+}
+.ready-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.ready-container p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.ready-container button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 12px auto;
+}
