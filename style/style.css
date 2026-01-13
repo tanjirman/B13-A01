@@ -188,3 +188,59 @@ body{
     text-align: center;
     
 }
+
+/* The Solution section  */
+Solution{
+    max-width: 1600px;
+    padding: 120px;
+    margin: 0 auto;   
+}
+.Solution-container{
+    max-width: 1360px;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40;
+}
+.container1 img{    
+    width: 600px;
+    height: 600px;
+}
+.container2{
+    max-width:760px;
+    align-items: center;
+    justify-content: center;
+    padding:60px;
+}
+.container2 h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.container2 h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 16px;
+}
+.container2 p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+.feature-list {
+  list-style: none;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: #0b1f33;
+}
